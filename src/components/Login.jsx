@@ -217,7 +217,7 @@ function Login() {
               </div>
             )}
             <form onSubmit={onSubmitData} className={loginMethod === 'email' ? '' : 'hidden'}>
-              <div className="form-group mb-4">
+              <div className="mb-4">
                 <label className="text-white" htmlFor="emailInput">
                   Enter Email
                 </label>
@@ -233,7 +233,7 @@ function Login() {
                   required
                 />
               </div>
-              <div className="form-group mb-4">
+              <div className="mb-4">
                 <label className="text-white" htmlFor="passwordInput">
                   Password
                 </label>
@@ -264,7 +264,7 @@ function Login() {
                   </label>
                 </div>
               </div>
-              <div className="form-group mb-4">
+              <div className="mb-4">
                 <input
                   type="checkbox"
                   id="rememberMe"
@@ -283,7 +283,7 @@ function Login() {
               </div>
             </form>
             <form onSubmit={showOTP ? onSubmitData : onSubmitPhoneNumber} className={loginMethod === 'phone' ? '' : 'hidden'}>
-              <div className="form-group mb-4">
+              <div className=" mb-4">
                 <label className="text-white" htmlFor="phoneInput">
                   Phone Number
                 </label>
@@ -300,7 +300,7 @@ function Login() {
                 />
               </div>
               {showOTP && (
-                <div className="form-group mb-4">
+                <div className="mb-4">
                   <label htmlFor="otp" className="text-white">
                     Enter OTP
                   </label>

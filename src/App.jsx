@@ -1,6 +1,7 @@
 import { AdminProvider } from './components/AdminContext'
 import Login from './components/Login'
 import Table from './components/Table'
+import './index.css'
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 
 
