@@ -437,7 +437,7 @@ function Login() {
                     <input type="email" name="email" required />
                   </div>
                   <div className="form-group">
-                    <button type="submit" className="submit-button">Add User</button>
+                    <button type="submit" className="submit-button bg-blue-600 rounded-lg px-4 py-2">Add User</button>
                   </div>
                 </form>
             
