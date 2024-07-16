@@ -1,0 +1,4 @@
+input[type="checkbox"]:checked {
+  background-color: orange;
+  border-color: orange;
+}
